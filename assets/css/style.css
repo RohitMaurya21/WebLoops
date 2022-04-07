@@ -1,22 +1,37 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ .logo{
+    color: #0029FF;
+    font-weight: 600;
+ }
+ .btn1{
+     background-color: black;
+     color: white;
+     border-radius: 50px;
+ }
+ .btn1:hover{
+     background-color: rgb(229, 224, 224);
+     color: black;
+ }
+ .main-3{
+     background-color: black;
+ }
+ .main3-head{
+     text-align: center;
+     padding: 2rem;
+     color: white;
+     font-size: 1.7rem;
+ }
+ .btn2{
+     background-color: black;
+     color: white;
+     border-color: white; 
      
-}
- 
-.nav-link{
-    text-align: center;
-    padding-left: 5px;
-    font-size: 1.2rem;
-    font-weight: 400;
-}
-.nav-link:hover{
-    text-decoration: underline;
-}
-.main-1{
-    margin-top: 5rem;
-}
-.main-2card:hover{
-    box-shadow: 1px 4px 4px 3px rgba(0, 0, 0, 0.25);
-}
+ }
+ .btn2:hover{
+   background-color: white;
+   color: black;
+ }
