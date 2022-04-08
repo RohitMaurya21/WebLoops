@@ -21,7 +21,7 @@
  }
  .main3-head{
      text-align: center;
-     padding: 2rem;
+     padding: 3rem;
      color: white;
      font-size: 1.7rem;
  }
@@ -34,4 +34,8 @@
  .btn2:hover{
    background-color: white;
    color: black;
+ }
+ .main-4{
+     margin-top: 5.2rem;
+
  }
