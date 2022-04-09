@@ -3,6 +3,9 @@
      margin: 0;
      box-sizing: border-box;
  }
+ body{
+    
+ }
  .logo{
     color: #0029FF;
     font-weight: 600;
@@ -21,7 +24,7 @@
  }
  .main3-head{
      text-align: center;
-     padding: 3rem;
+     padding: 2rem;
      color: white;
      font-size: 1.7rem;
  }
@@ -36,6 +39,12 @@
    color: black;
  }
  .main-4{
-     margin-top: 5.2rem;
+     margin-top: 5.5rem;
 
+ }
+ .service-img{
+     border-radius: 25px;
+ }
+ .main-5{
+     margin-top: 5rem;
  }
