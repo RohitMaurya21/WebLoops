@@ -3,9 +3,9 @@
      margin: 0;
      box-sizing: border-box;
  }
- body{
-    
- }
+  body{
+      background-color: rgba(226, 250, 253, 0.26);
+  }
  .logo{
     color: #0029FF;
     font-weight: 600;
@@ -20,6 +20,7 @@
      color: black;
  }
  .main-3{
+     margin-top: 5rem;
      background-color: black;
  }
  .main3-head{
@@ -47,4 +48,20 @@
  }
  .main-5{
      margin-top: 5rem;
+ }
+ .portfolio-img:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+ .main-6{
+     margin-top: 6rem;
+ }
+ .about{
+     border: 0;
+    background-color: rgba(226, 250, 253, 0.105);
+ }
+ .accordionbtn{
+    background-color: rgba(226, 250, 253, 0.105);
+ }
+ .accordionbtn:hover{
+     color: rgb(55, 255, 0);
  }
