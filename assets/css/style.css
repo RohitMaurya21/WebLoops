@@ -1,67 +1,98 @@
- *{
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
  }
-  body{
-      background-color: rgba(226, 250, 253, 0.26);
-  }
- .logo{
+
+ body {
+    background-color: rgba(226, 250, 253, 0.26);
+ }
+
+ .navbar {
+    background-color: rgba(255, 255, 255, 0.922);
+
+ }
+
+ .nav-item,.nav-link{
+   text-align: center;
+   color: black;
+   font-weight: 500;
+   font-size: 1.1rem;
+   padding-left:6px;
+ } 
+ .nav-link:hover{
+   background-color: rgba(169, 169, 169, 0.857);
+   color: white;
+   border-radius: 50px;
+ }
+ .spin {
+    color: rgb(89, 252, 48, 100);
+
+ }
+
+ .main {
+    background-color: rgba(226, 250, 253, 0.766);
+    border-radius: 0px 0px 410px 99px;
+ }
+
+ .logo {
     color: #0029FF;
     font-weight: 600;
  }
- .btn1{
-     background-color: black;
-     color: white;
-     border-radius: 50px;
+
+ .service {
+    margin-top: 10rem;
  }
- .btn1:hover{
-     background-color: rgb(229, 224, 224);
-     color: black;
+
+ .service-card {
+    border-radius: 25px;
  }
- .main-3{
-     margin-top: 5rem;
-     background-color: black;
- }
- .main3-head{
-     text-align: center;
-     padding: 2rem;
-     color: white;
-     font-size: 1.7rem;
- }
- .btn2{
-     background-color: black;
-     color: white;
-     border-color: white; 
-     
- }
- .btn2:hover{
-   background-color: white;
-   color: black;
- }
- .main-4{
-     margin-top: 5.5rem;
+
+ .service-card:hover {
+    background-color: rgba(0, 0, 0, 0.115);
 
  }
- .service-img{
-     border-radius: 25px;
+ .contact{
+   margin-top: 8rem;
  }
- .main-5{
-     margin-top: 5rem;
+ .contactform{
+   background-color: rgba(226, 250, 253, 0.26);
  }
- .portfolio-img:hover{
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+ .cta {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 8px;
  }
- .main-6{
-     margin-top: 6rem;
+
+ .btn-contact {
+    border-color: white;
+    color: white;
+    border-radius: 50px;
  }
- .about{
-     border: 0;
+
+ .partner {
+    background-color: rgb(255, 250, 220);
+    border-radius: 50px;
+ }
+
+ .about {
+    border: 0;
     background-color: rgba(226, 250, 253, 0.105);
  }
- .accordionbtn{
+
+ .accordionbtn {
     background-color: rgba(226, 250, 253, 0.105);
  }
- .accordionbtn:hover{
-     color: rgb(55, 255, 0);
+
+ .accordionbtn:hover {
+    color: rgb(55, 255, 0);
+ }
+ .footer{
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 5px;
  }
